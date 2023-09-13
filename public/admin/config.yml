@@ -58,6 +58,7 @@ collections:
           default: "blog",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Decription", name: "description", widget: "string" }
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
       - { label: "Featured Image", name: "heroImage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
